@@ -9,31 +9,19 @@ enum class LocationState {
 
 class Location {
 public:
-    Location() : state(LocationState::EMPTY) {}
+    Location();
 
-    bool isShip() const {
-        return state == LocationState::SHIP;
-    }
+    bool isShip()const;
 
-    bool isHit() const {
-        return state == LocationState::HIT;
-    }
+    bool isHit()const;
 
-    bool isMiss() const {
-        return state == LocationState::MISS;
-    }
+    bool isMiss()const;
 
-    void setShip() {
-        state = LocationState::SHIP;
-    }
+    void setShip();
 
-    void markHit() {
-        state = LocationState::HIT;
-    }
+    void markHit();
 
-    void markMiss() {
-        state = LocationState::MISS;
-    }
+    void markMiss();
 
 private:
     LocationState state;

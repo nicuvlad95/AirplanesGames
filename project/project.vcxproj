@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="airplane.cpp" />
+    <ClCompile Include="location.cpp" />
     <ClCompile Include="project.cpp" />
   </ItemGroup>
   <ItemGroup>

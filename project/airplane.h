@@ -6,13 +6,9 @@ using namespace std;
 
 class Airplane {
 public:
-    Airplane(int size) : size(size), hits(0) {
-        locations.resize(size);
-    }
+    Airplane(int size);
 
-    bool isDistroy() const {
-        return hits == size;
-    }
+    bool isDistroy();
 
     void placeAirplane(const vector<vector<Location>>& board);
 

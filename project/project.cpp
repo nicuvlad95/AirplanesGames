@@ -3,6 +3,9 @@
 #include <cstdlib>
 #include <ctime>
 
+#include "airplane.h"
+#include "location.h"
+
 using namespace std;
 
 // Constants for the size of the game board

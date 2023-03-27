@@ -18,6 +18,12 @@
     <ClCompile Include="project.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="airplane.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="location.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="location.h">
